@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sanjay M — developer portfolio, skills, projects, and contact information.">
+  <title>Sanjay M | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Sanjay M home">SM<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme">☀️ <span>Theme</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO LEARNING & OPPORTUNITIES</p>
+        <h1>Hi, I'm <span class="gradient-text">Sanjay M.</span><br>Future Full Stack Developer.</h1>
+        <p class="hero-description">I enjoy turning ideas into useful, accessible websites. I'm building my skills in web development one project at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact">Contact me</a>
+        </div>
+        <div class="quick-facts">
+          <div><strong>HTML</strong><span>Structure</span></div>
+          <div><strong>CSS</strong><span>Design</span></div>
+          <div><strong>JS</strong><span>Interaction</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="window-dots"><i></i><i></i><i></i><span>developer.js</span></div>
+          <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Sanjay M"</span>,
+  learning: [
+    <span class="code-green">"HTML"</span>,
+    <span class="code-green">"CSS"</span>,
+    <span class="code-green">"JavaScript"</span>
+  ],
+  mindset: <span class="code-green">"Keep building"</span>
+};
+
+<span class="code-blue">developer</span>.create(); <span class="code-muted">// ✨</span></code></pre>
+        </div>
+        <div class="floating-tag tag-html"> &lt;/&gt; HTML</div>
+        <div class="floating-tag tag-css">✦ CSS</div>
+        <div class="floating-tag tag-js">JS</div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Curious mind. <span class="gradient-text">Builder's mindset.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="icon-tile">✦</div>
+          <h3>Who I am</h3>
+          <p>I'm an aspiring developer who likes learning how websites work and making clean, easy-to-use web experiences. I am currently growing my programming knowledge through practice and projects.</p>
+        </div>
+        <div class="about-card">
+          <div class="icon-tile">⌘</div>
+          <h3>What I'm working toward</h3>
+          <p>My goal is to strengthen my front-end foundations, learn full-stack development, and collaborate on projects that solve real problems.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">MY TOOLKIT</p>
+        <h2>Skills I'm <span class="gradient-text">building.</span></h2>
+        <p class="section-intro">A snapshot of technologies I use or am currently learning. Update these to match your actual experience.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-symbol orange">5</span><div><h3>HTML5</h3><p>Semantic page structure</p></div></article>
+        <article class="skill-card"><span class="skill-symbol blue">✳</span><div><h3>CSS3</h3><p>Layouts and responsive design</p></div></article>
+        <article class="skill-card"><span class="skill-symbol yellow">JS</span><div><h3>JavaScript</h3><p>Interactive web features</p></div></article>
+        <article class="skill-card"><span class="skill-symbol green">Py</span><div><h3>Python</h3><p>Programming fundamentals</p></div></article>
+        <article class="skill-card"><span class="skill-symbol purple">⌘</span><div><h3>Git & GitHub</h3><p>Version control basics</p></div></article>
+        <article class="skill-card"><span class="skill-symbol pink">▣</span><div><h3>Responsive UI</h3><p>Mobile-first layouts</p></div></article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading project-heading">
+        <div><p class="eyebrow">SELECTED WORK</p><h2>Projects in <span class="gradient-text">progress.</span></h2></div>
+        <span class="project-count">03 PROJECT CARDS</span>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual visual-one"><span class="visual-window">01 <span>▰ ▰ ▰</span></span><div class="visual-lines"><i></i><i></i><i></i></div><b>PORTFOLIO</b></div>
+          <div class="project-content"><div class="project-meta"><span>WEB DESIGN</span><span>01</span></div><h3>Personal Developer Portfolio</h3><p>A responsive personal website with project cards, theme switching, and contact links.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><button class="text-link project-details" data-project="portfolio">View details <span>↗</span></button></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-two"><div class="mini-calendar"><strong>MY TASKS</strong><i></i><i></i><i></i><i></i></div><span class="visual-check">✓</span></div>
+          <div class="project-content"><div class="project-meta"><span>PRODUCTIVITY</span><span>02</span></div><h3>Task Tracker</h3><p>A beginner-friendly task list concept for adding tasks and tracking completed work.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><button class="text-link project-details" data-project="tasks">View details <span>↗</span></button></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-three"><div class="weather-card"><span>☀</span><strong>28°</strong><small>YOUR CITY</small><div class="weather-bars"><i></i><i></i><i></i><i></i></div></div></div>
+          <div class="project-content"><div class="project-meta"><span>JAVASCRIPT</span><span>03</span></div><h3>Weather Dashboard</h3><p>A weather app concept to practice API integration and presenting information clearly.</p><div class="tag-list"><span>JavaScript</span><span>API</span><span>CSS</span></div><button class="text-link project-details" data-project="weather">View details <span>↗</span></button></div>
+        </article>
+      </div>
+      <p class="note"><strong>Portfolio tip:</strong> These are starter project descriptions. Replace them with projects you have actually built, and add your live demo and GitHub repository links.</p>
+    </section>
+
+    <section class="section container" id="resume">
+      <div class="resume-panel">
+        <div><p class="eyebrow">RESUME & BACKGROUND</p><h2>Let's make the next step <span class="gradient-text">count.</span></h2><p>Add your resume PDF to this project as <code>assets/resume.pdf</code> to activate the download link.</p></div>
+        <a class="button button-secondary" href="assets/resume.pdf" download>Download resume ↓</a>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Have a project in <span class="gradient-text">mind?</span></h2>
+        <p class="section-intro">I'm open to connecting with fellow learners, developers, and people working on interesting ideas.</p>
+      </div>
+      <div class="contact-panel">
+        <div><span class="contact-icon">✉</span><div><small>EMAIL</small><p>Replace with your email address</p></div></div>
+        <a class="button button-primary" href="mailto:your.email@example.com?subject=Hello%20Sanjay">Send an email ↗</a>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="logo" href="#home">SM<span>.</span></a><p>Designed & built with care by Sanjay M.</p><p>© <span id="year"></span> All rights reserved.</p></div></footer>
+
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-top"><span class="eyebrow">PROJECT OVERVIEW</span><button class="dialog-close" id="dialogClose" aria-label="Close project details">×</button></div>
+    <h2 id="dialogTitle">Project title</h2><p id="dialogDescription"></p><div class="tag-list" id="dialogTags"></div>
+    <p class="dialog-hint">Replace this sample content with details from your own project before publishing.</p>
+    <button class="button button-primary" id="dialogDone" type="button">Got it</button>
+  </dialog>
+</body>
+</html>
